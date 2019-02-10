@@ -39,7 +39,7 @@
                     <div class="dropdown-menu" aria-labelledby="actionsDropDown">
                         <a class="dropdown-item" href="#">action one</a>
                         <a class="dropdown-item" href="#">action two</a>
-                        <a class="dropdown-item" href="#">action tree</a>
+                        <a class="dropdown-item" href="#">action three</a>
                     </div>
                 </li>
             </ul>
