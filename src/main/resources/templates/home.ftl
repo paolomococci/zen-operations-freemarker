@@ -1,18 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Paolo Mococci"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/webjars/font-awesome/5.6.3/css/all.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
     <title>Zen Operations</title>
 </head>
 <body>
-    <h1>Zen Operations - home</h1>
-    <hr/>
-    <ul>
-        <li><a href="">sample</a></li>
-        <li><a href="">sample</a></li>
-        <li><a href="">sample</a></li>
-        <li><a href="">sample</a></li>
-    </ul>
-    <hr/>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin">admin</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropDown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">pages</a>
+                    <div class="dropdown-menu" aria-labelledby="pagesDropDown">
+                        <a class="dropdown-item" href="#">blog</a>
+                        <a class="dropdown-item" href="#">coming soon</a>
+                        <a class="dropdown-item" href="#">magazine</a>
+                        <a class="dropdown-item" href="#">commerce</a>
+                        <a class="dropdown-item" href="#">listing</a>
+                        <a class="dropdown-item" href="#">image</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="actionsDropDown"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">actions</a>
+                    <div class="dropdown-menu" aria-labelledby="actionsDropDown">
+                        <a class="dropdown-item" href="#">action one</a>
+                        <a class="dropdown-item" href="#">action two</a>
+                        <a class="dropdown-item" href="#">action tree</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main role="main" class="container jumbotron mt-3">
+        <h1>Zen Operations - home</h1>
+        <article class="sampleTemplate">
+            <p>This document template as a way to quickly start any new page.</p>
+        </article>
+    </main>
+    <footer class="fixed-bottom">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin">admin</a>
+                </li>
+            </ul>
+        <nav>
+    </footer>
+    <script src="/webjars/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
+    <script src="/webjars/bootstrap/4.2.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        /*$(document).ready(function(){alert("jQuery version: "+$().jquery);});*/
+    </script>
 </body>
 </html>
