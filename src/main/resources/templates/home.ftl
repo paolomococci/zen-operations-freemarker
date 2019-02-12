@@ -8,15 +8,15 @@
     <meta name="author" content="Paolo Mococci"/>
     <link type="text/css" rel="stylesheet" media="all" href="/webjars/font-awesome/5.6.3/css/all.css"/>
     <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <link type="text/css" rel="stylesheet" href="/css/style.css">
-    <title>Zen Operations</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
+    <title>Zen Operations Home</title>
 </head>
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link" href="root">root</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="admin">admin</a>
@@ -59,7 +59,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link" href="root">root</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="admin">admin</a>
