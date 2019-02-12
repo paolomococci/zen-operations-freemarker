@@ -8,8 +8,8 @@
     <meta name="author" content="Paolo Mococci"/>
     <link type="text/css" rel="stylesheet" media="all" href="/webjars/font-awesome/5.6.3/css/all.css"/>
     <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <link type="text/css" rel="stylesheet" href="/css/style.css">
-    <title>Zen Operations</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
+    <title>Zen Operations Admin</title>
 </head>
 <body>
     <header>
@@ -19,7 +19,7 @@
                     <a class="nav-link" href="home">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">admin</a>
+                    <a class="nav-link" href="root">root</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropDown"
@@ -62,7 +62,7 @@
                     <a class="nav-link" href="home">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">admin</a>
+                    <a class="nav-link" href="root">root</a>
                 </li>
             </ul>
         <nav>
