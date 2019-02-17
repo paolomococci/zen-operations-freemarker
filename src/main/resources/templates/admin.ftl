@@ -25,6 +25,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropDown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">pages</a>
                     <div class="dropdown-menu" aria-labelledby="pagesDropDown">
+                        <a class="dropdown-item" href="#">statement panel</a>
                         <a class="dropdown-item" href="#">blog</a>
                         <a class="dropdown-item" href="#">coming soon</a>
                         <a class="dropdown-item" href="#">magazine</a>
@@ -37,7 +38,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="actionsDropDown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">actions</a>
                     <div class="dropdown-menu" aria-labelledby="actionsDropDown">
-                        <a class="dropdown-item" href="#">action one</a>
+                        <a class="dropdown-item" href="sample-test">sample test</a>
                         <a class="dropdown-item" href="#">action two</a>
                         <a class="dropdown-item" href="#">action three</a>
                     </div>
