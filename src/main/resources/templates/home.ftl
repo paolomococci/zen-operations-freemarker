@@ -25,7 +25,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="pagesDropDown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">pages</a>
                     <div class="dropdown-menu" aria-labelledby="pagesDropDown">
-                        <a class="dropdown-item" href="#">statistical panel</a>
+                        <a class="dropdown-item" href="statistical-panel">statistical panel</a>
                         <a class="dropdown-item" href="#">blog</a>
                         <a class="dropdown-item" href="#">coming soon</a>
                         <a class="dropdown-item" href="#">magazine</a>
@@ -70,8 +70,5 @@
     </footer>
     <script src="/webjars/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
     <script src="/webjars/bootstrap/4.2.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        /*$(document).ready(function(){alert("jQuery version: "+$().jquery);});*/
-    </script>
 </body>
 </html>
