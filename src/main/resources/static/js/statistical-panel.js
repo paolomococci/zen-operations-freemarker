@@ -34,7 +34,7 @@
     var likingsTemp = $('#dataColors tbody tr td.likings').get();
     var likings = new Array(n);
     for (var i = 0; i < n; i++) {
-        likings[i] = likingsTemp[i].innerText;
+        likings[i] = Number.parseFloat(likingsTemp[i].innerText);
     }
 
     var context = document.getElementById('statisticalPanelChart')
