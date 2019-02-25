@@ -30,20 +30,20 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DietProblemTests {
+public class HistoricDietProblemTests {
 
-    private final Variable variableBread = Variable.make("variableBread")
+    private final Variable variableBread = Variable.make("bread")
             .lower(0.0).upper(10.0).weight(0.05);
-    private final Variable variableCorn = Variable.make("variableCorn")
+    private final Variable variableCorn = Variable.make("corn")
             .lower(0.0).upper(10.0).weight(0.18);
-    private final Variable variableMilk = Variable.make("variableMilk")
+    private final Variable variableMilk = Variable.make("milk")
             .lower(0.0).upper(10.0).weight(0.23);
 
     private final ExpressionsBasedModel expressionsBasedModel = new ExpressionsBasedModel();
 
-    private final Expression expressionVitaminA = expressionsBasedModel.addExpression("expressionVitaminA")
+    private final Expression expressionVitaminA = expressionsBasedModel.addExpression()
             .lower(5000.0).upper(50000.0);
-    private final Expression expressionCalories = expressionsBasedModel.addExpression("expressionCalories")
+    private final Expression expressionCalories = expressionsBasedModel.addExpression()
             .lower(2000.0).upper(2250.0);
 
     private Optimisation optimisation;
