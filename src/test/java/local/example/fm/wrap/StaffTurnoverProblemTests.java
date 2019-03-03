@@ -37,13 +37,13 @@ public class StaffTurnoverProblemTests {
     @Test
     public void minimizationOfMorningStaffTest() {
         Variable [] weak = {
-                new Variable("monday").lower(0).weight(1).integer(true).relax(),
-                new Variable("tuesday").lower(0).weight(1).integer(true).relax(),
-                new Variable("wednesday").lower(0).weight(1).integer(true).relax(),
-                new Variable("thursday").lower(0).weight(1).integer(true).relax(),
-                new Variable("friday").lower(0).weight(1).integer(true).relax(),
-                new Variable("saturday").lower(0).weight(1).integer(true).relax(),
-                new Variable("sunday").lower(0).weight(1).integer(true).relax()
+                new Variable("beginsMonday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsTuesday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsWednesday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsThursday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsFriday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsSaturday").lower(0).weight(1).integer(true).relax(),
+                new Variable("beginsSunday").lower(0).weight(1).integer(true).relax()
         };
         ExpressionsBasedModel model = new ExpressionsBasedModel();
         Expression mon = model.addExpression().lower(17);
