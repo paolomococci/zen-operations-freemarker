@@ -7,6 +7,7 @@
     <meta name="description" content=""/>
     <meta name="author" content="Paolo Mococci"/>
     <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
     <link type="text/css" rel="stylesheet" media="all" href="/css/login.css"/>
     <title>Zen Operations Login</title>
 </head>
@@ -23,6 +24,7 @@
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">logging in</button>
+        <p class="mt-5 mb-3 text-muted">zen operations &#169; 2019</p>
     </form>
 </body>
 </html>
