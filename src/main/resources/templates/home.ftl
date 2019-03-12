@@ -26,6 +26,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">pages</a>
                     <div class="dropdown-menu" aria-labelledby="pagesDropDown">
                         <a class="dropdown-item" href="statistical-panel">statistical panel</a>
+                        <a class="dropdown-item" href="manufactured">manufactured</a>
                         <a class="dropdown-item" href="#">blog</a>
                         <a class="dropdown-item" href="#">coming soon</a>
                         <a class="dropdown-item" href="#">magazine</a>
