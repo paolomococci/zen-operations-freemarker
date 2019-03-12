@@ -1,0 +1,40 @@
+.manufactured-container {
+    max-width: 960px;
+}
+
+.manufactured-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.manufactured-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+.manufactured-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.manufactured-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.manufactured-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
