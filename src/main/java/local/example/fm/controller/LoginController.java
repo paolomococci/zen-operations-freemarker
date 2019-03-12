@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class LoginController {
 
     @GetMapping(value = {"login", "login.html"})
-    public String sampleTest() {
+    public String login() {
         return "login";
     }
 }
