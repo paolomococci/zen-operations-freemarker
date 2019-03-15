@@ -34,7 +34,7 @@
         </main>
         <footer class="masterFooter mt-auto">
             <div class="inner">
-                <p><a href="#">@zenoperations</a>
+                <p><a href="#">&#169; 2019 zen operations</a>
             </div>
         </footer>
     </div>
