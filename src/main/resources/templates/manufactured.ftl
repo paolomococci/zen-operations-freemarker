@@ -33,10 +33,10 @@
                 <p class="lead font-weight-normal">
                     optimize your operations
                 </p>
-                <a class="btn btn-outline-secondary" href="coming-soon">Coming soon</a>
+                <p>
+                    <a class="btn btn-outline-secondary" href="coming-soon">Coming soon</a>
+                </p>
             </div>
-            <div class="manufactured-device shadow-sm d-none d-md-block"></div>
-            <div class="manufactured-device manufactured-device-2 shadow-sm d-none d-md-block"></div>
         </div>
     </main>
     <footer class="container py-5">
