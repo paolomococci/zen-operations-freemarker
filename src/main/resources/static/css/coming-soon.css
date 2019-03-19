@@ -1,1 +1,29 @@
+html,
+body,
+.view {
+    height: 100%;
+}
 
+@media (max-width: 559px) {
+    html,
+    body,
+    .view {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+    html,
+    body,
+    .view {
+        height: 700px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    .view {
+        height: 600px;
+    }
+}
