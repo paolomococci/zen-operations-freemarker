@@ -16,7 +16,7 @@
  *
  */
 
-package local.example.fm;
+package local.example.zen;
 
 import org.apache.log4j.BasicConfigurator;
 import org.springframework.boot.SpringApplication;
