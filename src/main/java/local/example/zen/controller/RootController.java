@@ -16,7 +16,7 @@
  *
  */
 
-package local.example.fm.controller;
+package local.example.zen.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
