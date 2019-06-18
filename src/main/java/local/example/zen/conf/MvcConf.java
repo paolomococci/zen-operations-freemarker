@@ -16,7 +16,7 @@
  *
  */
 
-package local.example.fm.conf;
+package local.example.zen.conf;
 
 import freemarker.template.TemplateException;
 import org.slf4j.Logger;
