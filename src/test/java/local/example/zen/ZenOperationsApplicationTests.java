@@ -16,7 +16,7 @@
  *
  */
 
-package local.example.fm;
+package local.example.zen;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
