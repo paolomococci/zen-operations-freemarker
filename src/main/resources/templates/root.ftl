@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="description" content=""/>
     <meta name="author" content="Paolo Mococci"/>
-    <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" media="all" href="/css/style.css"/>
     <link type="text/css" rel="stylesheet" media="all" href="/css/root.css"/>
     <title>Zen Operations Root</title>
