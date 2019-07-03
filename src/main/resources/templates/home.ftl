@@ -28,6 +28,7 @@
                         <a class="dropdown-item" href="statistical-panel">statistical panel</a>
                         <a class="dropdown-item" href="manufactured">manufactured</a>
                         <a class="dropdown-item" href="coming-soon">coming soon</a>
+                        <a class="dropdown-item" href="control-panel">control panel</a>
                         <a class="dropdown-item" href="#">blog</a>
                         <a class="dropdown-item" href="#">magazine</a>
                         <a class="dropdown-item" href="#">commerce</a>
