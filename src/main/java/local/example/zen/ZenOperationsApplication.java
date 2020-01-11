@@ -18,7 +18,6 @@
 
 package local.example.zen;
 
-import org.apache.log4j.BasicConfigurator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -27,6 +26,5 @@ public class ZenOperationsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ZenOperationsApplication.class, args);
-		BasicConfigurator.configure();
 	}
 }
