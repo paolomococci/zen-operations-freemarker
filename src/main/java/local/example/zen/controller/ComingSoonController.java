@@ -24,7 +24,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ComingSoonController {
 
-    @GetMapping(value = {"coming-soon", "coming-soon.html"})
+    @GetMapping(value = {
+            "coming-soon",
+            "coming-soon.html"
+    })
     public String comingSoon() {
         return "coming-soon";
     }
