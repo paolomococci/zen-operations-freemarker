@@ -6,8 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="description" content=""/>
     <meta name="author" content="Paolo Mococci"/>
-    <link type="text/css" rel="stylesheet" media="all" href="/webjars/font-awesome/5.8.2/css/all.css"/>
-    <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/webjars/font-awesome/5.12.0/css/all.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="/webjars/bootstrap/4.4.1/css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
     <link type="text/css" rel="stylesheet" media="all" href="/css/coming-soon.css">
     <title>Zen Operations Coming Soon</title>
@@ -49,6 +49,6 @@
         </div>
     </footer>
     <script src="/webjars/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-    <script src="/webjars/bootstrap/4.3.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="/webjars/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 </body>
 </html>
