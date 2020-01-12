@@ -24,7 +24,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ControlPanelController {
 
-    @GetMapping(value = {"control-panel", "control-panel.html"})
+    @GetMapping(value = {
+            "control-panel",
+            "control-panel.html"
+    })
     public String controlPanel() {
         return "control-panel";
     }
