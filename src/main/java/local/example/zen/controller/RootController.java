@@ -24,7 +24,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class RootController {
 
-    @GetMapping(value = {"/", "root", "root.html"})
+    @GetMapping(value = {
+            "/",
+            "root",
+            "root.html"
+    })
     public String root() {
         return "root";
     }
