@@ -24,7 +24,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class SampleTestController {
 
-    @GetMapping(value = {"sample-test", "sample-test.html"})
+    @GetMapping(value = {
+            "sample-test",
+            "sample-test.html"
+    })
     public String sampleTest() {
         return "sample-test";
     }
