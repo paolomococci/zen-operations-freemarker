@@ -24,7 +24,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ManufacturedController {
 
-    @GetMapping(value = {"manufactured", "manufactured.html"})
+    @GetMapping(value = {
+            "manufactured",
+            "manufactured.html"
+    })
     public String manufactured() {
         return "manufactured";
     }
