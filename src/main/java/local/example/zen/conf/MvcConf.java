@@ -19,8 +19,6 @@
 package local.example.zen.conf;
 
 import freemarker.template.TemplateException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.ui.freemarker.FreeMarkerConfigurationFactory;
@@ -35,29 +33,26 @@ import java.io.IOException;
 public class MvcConf
         implements WebMvcConfigurer {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(MvcConf.class);
-
     @Bean
     public ViewResolver viewResolver() {
-        FreeMarkerViewResolver freeMarkerViewResolver = new FreeMarkerViewResolver();
+        var freeMarkerViewResolver = new FreeMarkerViewResolver();
         freeMarkerViewResolver.setCache(true);
         freeMarkerViewResolver.setPrefix("");
-        freeMarkerViewResolver.setSuffix(".ftl");
+        freeMarkerViewResolver.setSuffix(".ftl ");
         freeMarkerViewResolver.setContentType("text/html; charset=utf-8");
         return freeMarkerViewResolver;
     }
 
     @Bean
-    public FreeMarkerConfigurer freeMarkerConfigurer()
-            throws IOException {
-        FreeMarkerConfigurationFactory freeMarkerConfigurationFactory = new FreeMarkerConfigurationFactory();
+    public FreeMarkerConfigurer freeMarkerConfigurer() throws IOException {
+        var freeMarkerConfigurationFactory = new FreeMarkerConfigurationFactory();
         freeMarkerConfigurationFactory.setTemplateLoaderPaths("classpath:templates", "src/main/resources/templates");
         freeMarkerConfigurationFactory.setDefaultEncoding("utf-8");
-        FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
+        var freeMarkerConfigurer = new FreeMarkerConfigurer();
         try {
             freeMarkerConfigurer.setConfiguration(freeMarkerConfigurationFactory.createConfiguration());
-        } catch (TemplateException te) {
-            te.getMessage();
+        } catch (TemplateException templateException) {
+            templateException.getMessage();
         }
         return freeMarkerConfigurer;
     }
